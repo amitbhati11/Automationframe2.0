@@ -25,7 +25,7 @@ public class LoginTest extends baseclass {
 		String actual=driver.findElement(By.xpath("(//div//h1[text()='TestProject Example page'])[2]")).getText();
 		Assert.assertEquals(actual,"TestProject Example page");
 			
-		  
+		  System.out.println("=============");
 			
 		
 		sup=new Signuppage(driver);
